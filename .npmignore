@@ -1,0 +1,24 @@
+# Ignore everything except final build output
+src/
+.storybook/
+tests/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Config files
+tsconfig.json
+tsconfig.*.json
+tsup.config.ts
+jest.config.ts
+vite.config.ts
+postcss.config.js
+tailwind.config.js
+
+# Misc
+.vscode/
+*.log
+*.lock
+coverage/
+storybook-static/

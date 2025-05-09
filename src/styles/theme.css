@@ -1,0 +1,9 @@
+body.theme-default {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}

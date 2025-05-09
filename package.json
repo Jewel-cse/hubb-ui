@@ -1,0 +1,63 @@
+{
+  "name": "hubb-ui",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "description": "Your next generation ui library which you can used in react or nextjs project",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --watch",
+    "prepare": "npm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jewel-cse/hubb-ui.git"
+  },
+  "author": "Md Jewel Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jewel-cse/hubb-ui/issues"
+  },
+  "homepage": "https://github.com/Jewel-cse/hubb-ui#readme",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.6",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/experimental-addon-test": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@swc/core": "^1.11.24",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.1.3",
+    "@types/react-dom": "^19.1.3",
+    "@vitest/browser": "^3.1.3",
+    "@vitest/coverage-v8": "^3.1.3",
+    "autoprefixer": "^10.4.21",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "playwright": "^1.52.0",
+    "postcss": "^8.5.3",
+    "storybook": "^8.6.12",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}

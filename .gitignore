@@ -1,0 +1,23 @@
+# Node + build
+node_modules/
+dist/
+coverage/
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Storybook
+storybook-static/
+
+# Test
+jest-*.json
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Env files
+.env*
